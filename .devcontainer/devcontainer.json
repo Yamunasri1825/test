@@ -3,5 +3,5 @@
      "build": {
        "dockerfile": "Dockerfile"
      },
-     "postCreateCommand": "code --install-extension ./.devcontainer/my-test-extension-0.0.1.vsix"
+     "postCreateCommand": "code --install-extension ./my-test-extension-0.0.1.vsix"
    }

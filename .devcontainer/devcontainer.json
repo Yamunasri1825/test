@@ -1,0 +1,7 @@
+{
+     "name": "My Dev Container",
+     "build": {
+       "dockerfile": "Dockerfile"
+     },
+     "postCreateCommand": "code --install-extension ./.devcontainer/my-test-extension-0.0.1.vsix"
+   }

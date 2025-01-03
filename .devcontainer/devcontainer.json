@@ -4,9 +4,9 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "/workspaces/anusha_dev/.devcontainer/my-test-extension-0.0.1.vsix"
+        "/workspaces/test/.devcontainer/my-test-extension-0.0.1.vsix"
       ]
     }
   },
-  "postCreateCommand": "chmod +x /workspaces/anusha_dev/.devcontainer/my-test-extension-0.0.1.vsix"
+  "postCreateCommand": "chmod +x /workspaces/test/.devcontainer/my-test-extension-0.0.1.vsix"
 }

@@ -4,9 +4,9 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "/workspaces/test/.devcontainer/my-test-extension-0.0.1.vsix"
+        "/workspaces/test/.devcontainer/data-structures-algorithms-python-extension-pack-0.0.1.vsix"
       ]
     }
   },
-  "postCreateCommand": "chmod +x /workspaces/test/.devcontainer/my-test-extension-0.0.1.vsix"
+  "postCreateCommand": "chmod +x /workspaces/test/.devcontainer/data-structures-algorithms-python-extension-pack-0.0.1.vsix"
 }

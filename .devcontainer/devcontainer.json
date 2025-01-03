@@ -1,5 +1,12 @@
-   {
-       "name": "My Dev Container",
-       "image": "mcr.microsoft.com/devcontainers/universal:2",
-       "postCreateCommand": "code --install-extension ./.devcontainer/my-test-extension-0.0.1.vsix"
-   }
+{
+  "name": "My Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "/workspaces/anusha_dev/.devcontainer/my-test-extension-0.0.1.vsix"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x /workspaces/anusha_dev/.devcontainer/my-test-extension-0.0.1.vsix"
+}
